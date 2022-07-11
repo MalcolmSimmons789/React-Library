@@ -3,7 +3,13 @@ import Movie from './components/movie';
 import './App.css';
 
 function App() {
-	return <div className='App'></div>;
+	return (
+		<div>
+			{mvoies.map((movie) => (
+				<Movie />
+			))}
+		</div>
+	);
 }
 
 export default App;
