@@ -3,9 +3,11 @@ import Movie from './components/movie';
 import './App.css';
 
 function App() {
+	const movies = ['1', '2', '3'];
+
 	return (
 		<div>
-			{mvoies.map((movie) => (
+			{movies.map((movie) => (
 				<Movie />
 			))}
 		</div>
