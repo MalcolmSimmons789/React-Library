@@ -1,17 +1,10 @@
 import React from 'react';
-import Movie from './components/movie';
+import data from './data';
+import List from './List';
 import './App.css';
 
 function App() {
-	const movies = ['1', '2', '3'];
-
-	return (
-		<div>
-			{movies.map((movie) => (
-				<Movie />
-			))}
-		</div>
-	);
+	return <h2>reminder project setup</h2>;
 }
 
 export default App;
